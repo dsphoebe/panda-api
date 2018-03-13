@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_OPTIONS='--experimental-modules --loader ./custom-loader.mjs' node index.js"
+    "start": "NODE_OPTIONS='--experimental-modules' node index.mjs"
   },
   "license": "MIT",
   "dependencies": {
